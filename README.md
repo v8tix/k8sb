@@ -20,17 +20,18 @@ The main goal of this project is to show you an operating procedure to deploy an
   * A Bash library called [Zemni](https://github.com/v8tix/zemni), 
   * A set of Docker containers built using Zemni:
     * [Cronov](https://github.com/v8tix/cronov)
+    * [Rhoon](https://github.com/v8tix/rhoon)
     * [Spinrad](https://github.com/v8tix/spinrad)
     * [Laskaris](https://github.com/v8tix/laskaris)
     * [Seltris](https://github.com/v8tix/seltris)
     * [Aldurni](https://github.com/v8tix/aldurni)
     * [Xhidon](https://github.com/v8tix/xhidon)
       * Each container forms an inheritance relationship as it's shown in the following figure:
-      ![k8sb inheritance](./resources/k8sb-inheritance.png)
+      ![k8sb inheritance](resources/k8sb-inheritance.png)
   * The [Social](https://github.com/v8tix/social) microservice, and    
   * The [social2k8s](https://github.com/v8tix/social2k8s) project.    
 ### 2. The k8sb's images contexts.
-* Each image was built taken into account four main contexts:
+* Each image was build taken into account four main contexts:
   * Configuration and packages:
     * Used to initialize the necessary repositories, and the system packages.
   * External libraries.
@@ -42,7 +43,7 @@ The main goal of this project is to show you an operating procedure to deploy an
 * In the following figure, you can appreciate an example of these contexts:
 ![cronov contexts](./resources/cronov-contexts.png)
 ### 3. The Social microservice.
-* In order to run the Seltris, and the Xhidon image, you need a Spring Boot application. The Social microservice is a good fit because its configuration was externalized.
+* In order to run the Seltris, and the Xhidon image, you need a Spring Boot application. The Social microservice is a good fit because its configuration was externalize.
 * You can find more information about how to set up this microservice by following this [link](https://github.com/v8tix/social).  
 ### 4. Why k8sb is important?
 * Help you to keep your artifacts well organized. 
