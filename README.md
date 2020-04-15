@@ -20,6 +20,8 @@ The main goal of this project is to show you an operating procedure to deploy an
   * A Bash library called [Zemni](https://github.com/v8tix/zemni), 
   * A set of Docker containers built using Zemni:
     * [Cronov](https://github.com/v8tix/cronov)
+    * [Atrous](https://github.com/v8tix/atrous)
+    * [Hyrax](https://github.com/v8tix/hyrax)
     * [Rhoon](https://github.com/v8tix/rhoon)
     * [Spinrad](https://github.com/v8tix/spinrad)
     * [Laskaris](https://github.com/v8tix/laskaris)
@@ -27,7 +29,7 @@ The main goal of this project is to show you an operating procedure to deploy an
     * [Aldurni](https://github.com/v8tix/aldurni)
     * [Xhidon](https://github.com/v8tix/xhidon)
       * Each container forms an inheritance relationship as it's shown in the following figure:
-      ![k8sb inheritance](resources/k8sb-inheritance.png)
+      ![k8sb inheritance](resources/k8sb-inheritance-1.png)
   * The [Social](https://github.com/v8tix/social) microservice, and    
   * The [social2k8s](https://github.com/v8tix/social2k8s) project.    
 ### 2. The k8sb's images contexts.
