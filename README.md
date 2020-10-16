@@ -1,4 +1,4 @@
-![k8sb image](resources/k8s-boilerplate.png)
+![k8sb image](resources/k8sb-title.png)
 
 # Welcome
 
